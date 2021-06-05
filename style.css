@@ -128,6 +128,7 @@ table{
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+  font-size: 15px;
 }
 th,td {
   padding: 20px;
@@ -167,7 +168,7 @@ h2{
         /*background: #FFEA85;*/
       }
   .footer{
-  background: #000;
+  background: #505b41;
   display: flex;
   justify-content: center;
   margin-top: 10px;
