@@ -112,7 +112,7 @@ p{
       background: #ececec;
       }
       .article img{
-        width: 60%;
+        width: 50%;
       }
     h2{
       color: #21130d;
@@ -135,17 +135,24 @@ p{
         text-transform: uppercase;
       }
       .publicidad{
-        background: #FFEA85;
+        /*background: #FFEA85;*/
       }
   .footer{
   background: #000;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
   } 
     .pie{
-      background: #E6AF2E;
-      width: 300px;
-
+     /*background: #E6AF2E;*/
+      text-align: center;
+    }
+    .pie h4 {
+      color: #fff;
+      font-size: 11px;
+      text-transform: uppercase;
+      padding: 0 10px;
+      letter-spacing: 2px;
     }
 
 
