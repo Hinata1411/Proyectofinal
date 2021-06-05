@@ -1,20 +1,29 @@
 *{
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
 .padre{
   display: flex;
   flex-flow: column nowrap;
   }
   .header{
-    background: #000;
+    background: url(imagenes/Logo1.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
   }
   .menu{
-    background: #2D4059;
+    background: rgba(0, 0, 0, 0.1);
     display: flex;
     flex-flow: row nowrap;
     height: 100px;
@@ -22,22 +31,44 @@
   
   }
     .logo{
-      background: #EA5455;
       flex:1 1 auto;
-      align-self: auto;
-      height: 30px;
     }
+      .logo i{
+        color: #fff;
+        font-size: 35px;
+      }
+       .logo i:hover{
+      color: #343434;
+    }
+      .logo a{
+        color: "fff";
+      }
     .nav{
-      background: #EA5455;
       flex:5 1 auto;
       align-self: auto;
-      height: 30px;
+    }
+    .nav a{
+      color: #fff;
+      font-size: 11px;
+      text-transform: uppercase;
+      padding: 0 10px;
+      letter-spacing: 2px;
+
+    }
+    .nav a:hover{
+      color: #343434;
     }
     .social{
-      background: #EA5455;
       flex:1 1 auto;
-      align-self: auto;
-      height:30px;
+      display: flex;
+    }
+      .social a{
+        font-size: 18px;
+        color: #fff;
+        padding: 0 5px;
+      }
+      .social a:hover{
+      color: #343434;
     }
   .texto-principal {
     background: #F07B3F;
