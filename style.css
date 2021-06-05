@@ -10,6 +10,7 @@ body {
 }
 a{
   text-decoration: none;
+  color: #fff;
 }
 p{
   font-size: 15px;
@@ -141,13 +142,13 @@ tr:nth-child(even){
   background-color: #ddd;
 }
     
-    h2{
-      color: #21130d;
-      font-size: 25px;
-      padding: 0px 0 10px 0;
-      text-transform: uppercase;
-      padding: 15px;
-    }
+h2{
+   color: #21130d;
+   font-size: 25px;
+   padding: 0px 0 10px 0;
+   text-transform: uppercase;
+   padding: 15px;
+}
     .aside{
      /*background: #F73F52;*/
       margin: 10px 5px 10px 0;
