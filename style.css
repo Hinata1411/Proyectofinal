@@ -13,6 +13,8 @@ a{
 }
 p{
   font-size: 15px;
+  text-align: justify;
+  padding: 15px;
 }
 .padre{
   display: flex;
@@ -35,6 +37,7 @@ p{
     flex-flow: row nowrap;
     height: 60px;
     align-items: center;
+    text-align: center;
     border-bottom: 1px solid rgba(255,255,255,.5)
   }
     .logo{
@@ -56,7 +59,7 @@ p{
     }
     .nav a{
       color: #fff;
-      font-size: 11px;
+      font-size: 20px;
       text-transform: uppercase;
       padding: 0 10px;
       letter-spacing: 2px;
@@ -70,7 +73,7 @@ p{
       display: flex;
     }
       .social a{
-        font-size: 18px;
+        font-size: 20px;
         color: #fff;
         padding: 0 5px;
       }
@@ -113,12 +116,37 @@ p{
       }
       .article img{
         width: 50%;
+        padding: 15px;
       }
+.peli{
+  color: #000;
+}
+
+table{
+  background: #76b5c5;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,td {
+  padding: 20px;
+}
+thead{
+  background: #6f6181;
+  border-bottom: solid 5px;
+  color: #fff;
+
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+    
     h2{
       color: #21130d;
       font-size: 25px;
       padding: 0px 0 10px 0;
       text-transform: uppercase;
+      padding: 15px;
     }
     .aside{
      /*background: #F73F52;*/
