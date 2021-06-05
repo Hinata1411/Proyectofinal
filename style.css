@@ -1,19 +1,26 @@
+
 *{
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Zilla Slab', serif;
 }
 a{
   text-decoration: none;
+}
+p{
+  font-size: 15px;
 }
 .padre{
   display: flex;
   flex-flow: column nowrap;
   }
+.margen-interno{
+  padding: 0 50px;
+}
   .header{
     background: url(imagenes/Logo1.jpg);
     background-position: center;
@@ -26,9 +33,9 @@ a{
     background: rgba(0, 0, 0, 0.1);
     display: flex;
     flex-flow: row nowrap;
-    height: 100px;
+    height: 60px;
     align-items: center;
-  
+    border-bottom: 1px solid rgba(255,255,255,.5)
   }
     .logo{
       flex:1 1 auto;
@@ -71,32 +78,62 @@ a{
       color: #343434;
     }
   .texto-principal {
-    background: #F07B3F;
+    /*background: #F07B3F;*/
+    height: 580px;
+
+    align-items: center;
   }
     h1{
-      background:#FFD460;
+      font-family: 'Dancing Script', cursive;
+      font-size: 71px;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+      line-height: 1.6;
     }
 
   .section{
-      background: #000;
+      background: "f7f7f7";
       display: flex;
   }
     .articulos{
-    background: #4E4E6A;
+    background: #f7f7f7;
     flex: 2 1 auto;
-    display: flex;
     flex-flow: row wrap;
 
     }
       .article{
-      background:#1F6CB0;
       flex: 1 1 40%;
-
+      color: #444;
+      font-size: 13px;
+      letter-spacing: 1px;
+      margin: 10px 10px 0 0px;
+      flex: 1 1 45%;
+      background: #ececec;
       }
-    .aside{
-      background: #F73F52;
-      flex: 1 1 auto;
+      .article img{
+        width: 60%;
+      }
+    h2{
+      color: #21130d;
+      font-size: 25px;
+      padding: 0px 0 10px 0;
+      text-transform: uppercase;
     }
+    .aside{
+     /*background: #F73F52;*/
+      margin: 10px 5px 10px 0;
+      
+    }
+      .aside img{
+        width: 100%;
+      }
+      .aside p{
+        background: #000;
+        color: fff;
+        padding: 10px;
+        text-transform: uppercase;
+      }
       .publicidad{
         background: #FFEA85;
       }
@@ -110,6 +147,9 @@ a{
       width: 300px;
 
     }
+
+
+/*MEDIAS*/
 @media all and (max-width: 800px) {
   .section {
     flex-direction: column;
